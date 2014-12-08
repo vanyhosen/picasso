@@ -27,7 +27,7 @@ import static com.squareup.picasso.Picasso.LoadedFrom.NETWORK;
 
 class NetworkRequestHandler extends RequestHandler {
   static final int RETRY_COUNT = 2;
-  private static final int MARKER = 65536;
+  private static final int MARKER = 131072;
 
   private static final String SCHEME_HTTP = "http";
   private static final String SCHEME_HTTPS = "https";
